@@ -1,0 +1,16 @@
+PODS:
+  - HMGLTransitions (0.0.1)
+
+DEPENDENCIES:
+  - HMGLTransitions
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - HMGLTransitions
+
+SPEC CHECKSUMS:
+  HMGLTransitions: 32a835df2a15a4839b737131895e8320d14150a7
+
+PODFILE CHECKSUM: 4702f0673856dab13a8e50b06a1beaa1dd9596ec
+
+COCOAPODS: 1.5.2

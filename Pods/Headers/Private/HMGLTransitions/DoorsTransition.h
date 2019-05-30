@@ -1,0 +1,1 @@
+../../../HMGLTransitions/Classes/HMGLTransitions/DoorsTransition.h

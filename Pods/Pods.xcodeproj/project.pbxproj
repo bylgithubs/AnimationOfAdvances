@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CD975169BD96E196A9530DB99A7C4A9 /* ClothTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = EFE157AD394F576DEFAB03FD0E0A05F3 /* ClothTransition.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3C1CB20D2E69C6003528FAD0A770B3C5 /* Switch3DTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 72242B47ED311431D3B9024101E1E3C5 /* Switch3DTransition.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3E58CA0AC1722F2FB2C66B9DAD69BA89 /* HMGLTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A8A3097055C0C26078AB4456D4613A /* HMGLTransition.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4A82B7EA77B3F2CB20CEA17DFB29097B /* DoorsTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6835C2EA2BBA5C84E2AF8815AF0A8F27 /* DoorsTransition.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4BDAB2B8D36CFC6752F68F6E30447B24 /* HMGLTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E99983E86F805BFB40AD7ADF3EA76FF5 /* HMGLTransitionManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4C95D9B155F4B60E14A507DCF5162207 /* Pods-AnimationOfAdvances-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBC86EDCE31EB04DA7B7277A2C9C4F6 /* Pods-AnimationOfAdvances-dummy.m */; };
+		4ED6C9EA15E74ECA18A40E1B1ED70E71 /* ClothTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BFE927F89C6DE97EC1ED7AE23FCF449 /* ClothTransition.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6749FA3221CFF922D6A0A30CC324B217 /* HMGLTransitionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E43DF1C0F1C605E35CBBCE18D83C6A5 /* HMGLTransitionView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6B98D65E9C8672D648DE8EFA0D258488 /* HMGLTransitionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1213224CABB651405146DC18699CAE60 /* HMGLTransitionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8470897CE2152E4BCFC05911DE457347 /* RotateTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = E2D92A6A4837D54A38F452F0641B102D /* RotateTransition.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8E39F5431B156726B5C1DA30993D85AB /* HMGLTransitions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C02A3E3EB685554562BC1F9D21C8E /* HMGLTransitions-dummy.m */; };
+		93978CB8F34B35CB7535D58B63B04D06 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47BDB85B5EEBECBAB360B50720257E3A /* OpenGLES.framework */; };
+		A545F35D5DEEBBEC737CEB59D861AB5C /* HMGLTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = EA9A18FE89574D2FF85CC518C8384CE1 /* HMGLTransition.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AF21FBB3EB8580464134F663D29CAFCF /* DoorsTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D02740A02D88EA13D678F15CFC6E6EE /* DoorsTransition.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C921830D323865DC036B4098F04963CC /* RotateTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9594484A1A0B6F82F87EBE2B3A082D /* RotateTransition.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CC905BD5CED9019E392407E1D6748069 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E78A4089277D2C2491B564D02E4110 /* QuartzCore.framework */; };
+		D819A9F73A7353ADF47EA3B4054C3ABA /* HMGLTransitionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B6F138E5C55465B61DBD58D23F0A57C /* HMGLTransitionView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DCDC9A615371DA3762BD516D6EDDFED4 /* FlipTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = CA0086E65031A98665CEB1AEAD300995 /* FlipTransition.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F6C07907E173FF0BE3FC0184A9DF1411 /* FlipTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0134A2439275CF48A39107959D58EC57 /* FlipTransition.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F6F109D1D84DE4A1195BBB41D8C5FB95 /* Switch3DTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D62B73B03C1BBCBDE493285C48B3DB8F /* Switch3DTransition.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC858D3E34C55A4466CB1089287034CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 864DC3D0AF33475A7F9B36A1D9D7E05C;
+			remoteInfo = HMGLTransitions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0134A2439275CF48A39107959D58EC57 /* FlipTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlipTransition.m; path = Classes/HMGLTransitions/FlipTransition.m; sourceTree = "<group>"; };
+		02EFAC9EDBB7E05908C572AC9C3AA084 /* libHMGLTransitions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libHMGLTransitions.a; path = libHMGLTransitions.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B0E32CD6D76431872E0D0436B756A27 /* HMGLTransitions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HMGLTransitions.xcconfig; sourceTree = "<group>"; };
+		0B6F138E5C55465B61DBD58D23F0A57C /* HMGLTransitionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HMGLTransitionView.h; path = Classes/HMGLTransitions/HMGLTransitionView.h; sourceTree = "<group>"; };
+		0E43DF1C0F1C605E35CBBCE18D83C6A5 /* HMGLTransitionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HMGLTransitionView.m; path = Classes/HMGLTransitions/HMGLTransitionView.m; sourceTree = "<group>"; };
+		10B7BACB6104567B3FF5669AC629F2EB /* Pods-AnimationOfAdvances.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimationOfAdvances.release.xcconfig"; sourceTree = "<group>"; };
+		1213224CABB651405146DC18699CAE60 /* HMGLTransitionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HMGLTransitionManager.h; path = Classes/HMGLTransitions/HMGLTransitionManager.h; sourceTree = "<group>"; };
+		185C02A3E3EB685554562BC1F9D21C8E /* HMGLTransitions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HMGLTransitions-dummy.m"; sourceTree = "<group>"; };
+		24A8A3097055C0C26078AB4456D4613A /* HMGLTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HMGLTransition.m; path = Classes/HMGLTransitions/HMGLTransition.m; sourceTree = "<group>"; };
+		47BDB85B5EEBECBAB360B50720257E3A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
+		4ED1AB2C8EC7B2E807989127838C6588 /* Pods-AnimationOfAdvances-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AnimationOfAdvances-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5DBC86EDCE31EB04DA7B7277A2C9C4F6 /* Pods-AnimationOfAdvances-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AnimationOfAdvances-dummy.m"; sourceTree = "<group>"; };
+		6835C2EA2BBA5C84E2AF8815AF0A8F27 /* DoorsTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DoorsTransition.m; path = Classes/HMGLTransitions/DoorsTransition.m; sourceTree = "<group>"; };
+		6A23195949700D67B06613CB0845950E /* libPods-AnimationOfAdvances.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AnimationOfAdvances.a"; path = "libPods-AnimationOfAdvances.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BFE927F89C6DE97EC1ED7AE23FCF449 /* ClothTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClothTransition.m; path = Classes/HMGLTransitions/ClothTransition.m; sourceTree = "<group>"; };
+		6D02639159052CBBB56E093CCBA78384 /* Pods-AnimationOfAdvances-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnimationOfAdvances-frameworks.sh"; sourceTree = "<group>"; };
+		6FD81CF40D0630EA398AC9B642D7498C /* Pods-AnimationOfAdvances.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimationOfAdvances.debug.xcconfig"; sourceTree = "<group>"; };
+		72242B47ED311431D3B9024101E1E3C5 /* Switch3DTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Switch3DTransition.h; path = Classes/HMGLTransitions/Switch3DTransition.h; sourceTree = "<group>"; };
+		7C9594484A1A0B6F82F87EBE2B3A082D /* RotateTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RotateTransition.m; path = Classes/HMGLTransitions/RotateTransition.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93E78A4089277D2C2491B564D02E4110 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		9D02740A02D88EA13D678F15CFC6E6EE /* DoorsTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoorsTransition.h; path = Classes/HMGLTransitions/DoorsTransition.h; sourceTree = "<group>"; };
+		A6BEF892AFE1D9D86AE6B06218B6CB00 /* HMGLTransitions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HMGLTransitions-prefix.pch"; sourceTree = "<group>"; };
+		CA0086E65031A98665CEB1AEAD300995 /* FlipTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlipTransition.h; path = Classes/HMGLTransitions/FlipTransition.h; sourceTree = "<group>"; };
+		D0C2059947D134FB34936018F902AF0F /* Pods-AnimationOfAdvances-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnimationOfAdvances-acknowledgements.plist"; sourceTree = "<group>"; };
+		D62B73B03C1BBCBDE493285C48B3DB8F /* Switch3DTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Switch3DTransition.m; path = Classes/HMGLTransitions/Switch3DTransition.m; sourceTree = "<group>"; };
+		DE18348210430D0C6F8538EB1F534F29 /* Pods-AnimationOfAdvances-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnimationOfAdvances-resources.sh"; sourceTree = "<group>"; };
+		E2D92A6A4837D54A38F452F0641B102D /* RotateTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RotateTransition.h; path = Classes/HMGLTransitions/RotateTransition.h; sourceTree = "<group>"; };
+		E99983E86F805BFB40AD7ADF3EA76FF5 /* HMGLTransitionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HMGLTransitionManager.m; path = Classes/HMGLTransitions/HMGLTransitionManager.m; sourceTree = "<group>"; };
+		EA9A18FE89574D2FF85CC518C8384CE1 /* HMGLTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HMGLTransition.h; path = Classes/HMGLTransitions/HMGLTransition.h; sourceTree = "<group>"; };
+		EFE157AD394F576DEFAB03FD0E0A05F3 /* ClothTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClothTransition.h; path = Classes/HMGLTransitions/ClothTransition.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34CA79EC5108C2817F3DC7A34B889E44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93978CB8F34B35CB7535D58B63B04D06 /* OpenGLES.framework in Frameworks */,
+				CC905BD5CED9019E392407E1D6748069 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26F49E6755E42F93AC62B75BD759994 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07D3DB5E62EE4E21E497E03D44B9EF86 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				47BDB85B5EEBECBAB360B50720257E3A /* OpenGLES.framework */,
+				93E78A4089277D2C2491B564D02E4110 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		0AF572AE00D21123F6E529DB9FC2F660 /* HMGLTransitions */ = {
+			isa = PBXGroup;
+			children = (
+				EFE157AD394F576DEFAB03FD0E0A05F3 /* ClothTransition.h */,
+				6BFE927F89C6DE97EC1ED7AE23FCF449 /* ClothTransition.m */,
+				9D02740A02D88EA13D678F15CFC6E6EE /* DoorsTransition.h */,
+				6835C2EA2BBA5C84E2AF8815AF0A8F27 /* DoorsTransition.m */,
+				CA0086E65031A98665CEB1AEAD300995 /* FlipTransition.h */,
+				0134A2439275CF48A39107959D58EC57 /* FlipTransition.m */,
+				EA9A18FE89574D2FF85CC518C8384CE1 /* HMGLTransition.h */,
+				24A8A3097055C0C26078AB4456D4613A /* HMGLTransition.m */,
+				1213224CABB651405146DC18699CAE60 /* HMGLTransitionManager.h */,
+				E99983E86F805BFB40AD7ADF3EA76FF5 /* HMGLTransitionManager.m */,
+				0B6F138E5C55465B61DBD58D23F0A57C /* HMGLTransitionView.h */,
+				0E43DF1C0F1C605E35CBBCE18D83C6A5 /* HMGLTransitionView.m */,
+				E2D92A6A4837D54A38F452F0641B102D /* RotateTransition.h */,
+				7C9594484A1A0B6F82F87EBE2B3A082D /* RotateTransition.m */,
+				72242B47ED311431D3B9024101E1E3C5 /* Switch3DTransition.h */,
+				D62B73B03C1BBCBDE493285C48B3DB8F /* Switch3DTransition.m */,
+				86D522B7845DBC43BB7DD8D2F184AF0C /* Support Files */,
+			);
+			name = HMGLTransitions;
+			path = HMGLTransitions;
+			sourceTree = "<group>";
+		};
+		2A1986B5295CB191A38F14C49B683F16 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A092DC311454EBDF886C49F52F76FD4 /* Pods-AnimationOfAdvances */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07D3DB5E62EE4E21E497E03D44B9EF86 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D15B6788FCFA1A513AC632B679956E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AF572AE00D21123F6E529DB9FC2F660 /* HMGLTransitions */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				7D15B6788FCFA1A513AC632B679956E5 /* Pods */,
+				7EE45F26C696D0CA83A4E5A89B7EFAC3 /* Products */,
+				2A1986B5295CB191A38F14C49B683F16 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7EE45F26C696D0CA83A4E5A89B7EFAC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02EFAC9EDBB7E05908C572AC9C3AA084 /* libHMGLTransitions.a */,
+				6A23195949700D67B06613CB0845950E /* libPods-AnimationOfAdvances.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86D522B7845DBC43BB7DD8D2F184AF0C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B0E32CD6D76431872E0D0436B756A27 /* HMGLTransitions.xcconfig */,
+				185C02A3E3EB685554562BC1F9D21C8E /* HMGLTransitions-dummy.m */,
+				A6BEF892AFE1D9D86AE6B06218B6CB00 /* HMGLTransitions-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HMGLTransitions";
+			sourceTree = "<group>";
+		};
+		8A092DC311454EBDF886C49F52F76FD4 /* Pods-AnimationOfAdvances */ = {
+			isa = PBXGroup;
+			children = (
+				4ED1AB2C8EC7B2E807989127838C6588 /* Pods-AnimationOfAdvances-acknowledgements.markdown */,
+				D0C2059947D134FB34936018F902AF0F /* Pods-AnimationOfAdvances-acknowledgements.plist */,
+				5DBC86EDCE31EB04DA7B7277A2C9C4F6 /* Pods-AnimationOfAdvances-dummy.m */,
+				6D02639159052CBBB56E093CCBA78384 /* Pods-AnimationOfAdvances-frameworks.sh */,
+				DE18348210430D0C6F8538EB1F534F29 /* Pods-AnimationOfAdvances-resources.sh */,
+				6FD81CF40D0630EA398AC9B642D7498C /* Pods-AnimationOfAdvances.debug.xcconfig */,
+				10B7BACB6104567B3FF5669AC629F2EB /* Pods-AnimationOfAdvances.release.xcconfig */,
+			);
+			name = "Pods-AnimationOfAdvances";
+			path = "Target Support Files/Pods-AnimationOfAdvances";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A114D2D97CC9B0721ED98B296E3A97F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD975169BD96E196A9530DB99A7C4A9 /* ClothTransition.h in Headers */,
+				AF21FBB3EB8580464134F663D29CAFCF /* DoorsTransition.h in Headers */,
+				DCDC9A615371DA3762BD516D6EDDFED4 /* FlipTransition.h in Headers */,
+				A545F35D5DEEBBEC737CEB59D861AB5C /* HMGLTransition.h in Headers */,
+				6B98D65E9C8672D648DE8EFA0D258488 /* HMGLTransitionManager.h in Headers */,
+				D819A9F73A7353ADF47EA3B4054C3ABA /* HMGLTransitionView.h in Headers */,
+				8470897CE2152E4BCFC05911DE457347 /* RotateTransition.h in Headers */,
+				3C1CB20D2E69C6003528FAD0A770B3C5 /* Switch3DTransition.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		02C3EEEF0DA01D6A65726C1DC0313A59 /* Pods-AnimationOfAdvances */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F75915794A2B7A33B5A72A3B7760A72 /* Build configuration list for PBXNativeTarget "Pods-AnimationOfAdvances" */;
+			buildPhases = (
+				D131BFDFB460CF69BF40C329EE3B685D /* Sources */,
+				F26F49E6755E42F93AC62B75BD759994 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8AD1A88E769B61054D7E3753466B741 /* PBXTargetDependency */,
+			);
+			name = "Pods-AnimationOfAdvances";
+			productName = "Pods-AnimationOfAdvances";
+			productReference = 6A23195949700D67B06613CB0845950E /* libPods-AnimationOfAdvances.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		864DC3D0AF33475A7F9B36A1D9D7E05C /* HMGLTransitions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 804B2CEAD2E85A8AE5E9C0B635530573 /* Build configuration list for PBXNativeTarget "HMGLTransitions" */;
+			buildPhases = (
+				91AFD261C4AB68227509C46A9178A533 /* Sources */,
+				34CA79EC5108C2817F3DC7A34B889E44 /* Frameworks */,
+				A114D2D97CC9B0721ED98B296E3A97F6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HMGLTransitions;
+			productName = HMGLTransitions;
+			productReference = 02EFAC9EDBB7E05908C572AC9C3AA084 /* libHMGLTransitions.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7EE45F26C696D0CA83A4E5A89B7EFAC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				864DC3D0AF33475A7F9B36A1D9D7E05C /* HMGLTransitions */,
+				02C3EEEF0DA01D6A65726C1DC0313A59 /* Pods-AnimationOfAdvances */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91AFD261C4AB68227509C46A9178A533 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ED6C9EA15E74ECA18A40E1B1ED70E71 /* ClothTransition.m in Sources */,
+				4A82B7EA77B3F2CB20CEA17DFB29097B /* DoorsTransition.m in Sources */,
+				F6C07907E173FF0BE3FC0184A9DF1411 /* FlipTransition.m in Sources */,
+				3E58CA0AC1722F2FB2C66B9DAD69BA89 /* HMGLTransition.m in Sources */,
+				4BDAB2B8D36CFC6752F68F6E30447B24 /* HMGLTransitionManager.m in Sources */,
+				8E39F5431B156726B5C1DA30993D85AB /* HMGLTransitions-dummy.m in Sources */,
+				6749FA3221CFF922D6A0A30CC324B217 /* HMGLTransitionView.m in Sources */,
+				C921830D323865DC036B4098F04963CC /* RotateTransition.m in Sources */,
+				F6F109D1D84DE4A1195BBB41D8C5FB95 /* Switch3DTransition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D131BFDFB460CF69BF40C329EE3B685D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C95D9B155F4B60E14A507DCF5162207 /* Pods-AnimationOfAdvances-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8AD1A88E769B61054D7E3753466B741 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HMGLTransitions;
+			target = 864DC3D0AF33475A7F9B36A1D9D7E05C /* HMGLTransitions */;
+			targetProxy = BC858D3E34C55A4466CB1089287034CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D47940817872BDB1B5F959E6741AA3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B0E32CD6D76431872E0D0436B756A27 /* HMGLTransitions.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/HMGLTransitions/HMGLTransitions-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = HMGLTransitions;
+				PRODUCT_NAME = HMGLTransitions;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A600983A625F3A4B5F61A8C16A7BF27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FD81CF40D0630EA398AC9B642D7498C /* Pods-AnimationOfAdvances.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5138E679DF0A1A04100254ACB705AF95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B0E32CD6D76431872E0D0436B756A27 /* HMGLTransitions.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/HMGLTransitions/HMGLTransitions-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = HMGLTransitions;
+				PRODUCT_NAME = HMGLTransitions;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C8F48CD8EC73B9D8D1CF35458753FDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10B7BACB6104567B3FF5669AC629F2EB /* Pods-AnimationOfAdvances.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */,
+				AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F75915794A2B7A33B5A72A3B7760A72 /* Build configuration list for PBXNativeTarget "Pods-AnimationOfAdvances" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A600983A625F3A4B5F61A8C16A7BF27 /* Debug */,
+				5C8F48CD8EC73B9D8D1CF35458753FDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		804B2CEAD2E85A8AE5E9C0B635530573 /* Build configuration list for PBXNativeTarget "HMGLTransitions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5138E679DF0A1A04100254ACB705AF95 /* Debug */,
+				1D47940817872BDB1B5F959E6741AA3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
